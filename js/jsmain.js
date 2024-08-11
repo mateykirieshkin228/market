@@ -15,3 +15,6 @@ class MyElement extends HTMLElement {
             }
         }
         customElements.define("product-card",MyElement);
+
+
+//ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
