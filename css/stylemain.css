@@ -36,17 +36,31 @@ a {
 
 .product {
     border-style: solid;
-    width: 500px;
+    width: 350px;
     height: 300px;
 }
 #image {
     width: 200px;
     height: 200px;
     padding-top: 25px;
-    padding-left: 150px;
+    padding-left: 80px;
+}
+#image:hover {
+    animation: anim1 1s ease-in-out forwards;
 }
 #name, #price {
     display: flex;
     justify-content: center;
     text-align: center;
+}
+@keyframes anim1 {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
