@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+#upside {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: darkolivegreen;
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 32;
+    text-align: center;
+    align-content: center;
+}    
+a {
+    height: 50px;
+    width: 100px;
+    margin-top: 5px;
+    text-decoration: none;
+
+}
+#logo {
+    margin-left: 50px;
+}
+#skidki {
+    margin-right: 10px;
+}
+
+
+.product {
+    border-style: solid;
+    width: 500px;
+    height: 300px;
+}
+#image {
+    width: 200px;
+    height: 200px;
+    padding-top: 25px;
+    padding-left: 150px;
+}
+#name, #price {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
