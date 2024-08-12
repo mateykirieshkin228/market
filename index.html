@@ -20,10 +20,17 @@
         </div>
     </div>
     <div class="product-container"></div>
+    <div class="product-container2"></div>
     </body>
     <script>
-    document.querySelector('.product-container').append(new MyElement("тестовый товар", "images/aaaaaaa.jpg", 228));
+    document.querySelector('.product-container').append(new MyElement("тестовый товар", "images/aaaaaaa.jpg", 228, "first"));
     document.querySelector('.product-container').append(new MyElement("тестовый товар", "images/дай пять.jpg", 1337));
-    document.querySelector('.product-container').append(new MyElement("тестовый товар", "images/пашка в ударе.jpg", 1234))
+    document.querySelector('.product-container').append(new MyElement("тестовый товар", "images/пашка в ударе.jpg", 1234));
+    document.querySelector('.product-container').append(new MyElement("тестовый товар", "images/дай пять.jpg", 12345));
+    //ВТОРАЯ СТРОКА
+    document.querySelector('.product-container2').append(new MyElement("тестовый товар", "images/пашка в ударе.jpg", 98765));
+    document.querySelector('.product-container2').append(new MyElement("тестовый товар", "images/дай пять.jpg", 123));
+    document.querySelector('.product-container2').append(new MyElement("тестовый товар", "images/пашка в ударе.jpg", 322));
+    document.querySelector('.product-container2').append(new MyElement("тестовый товар", "images/aaaaaaa.jpg", 228));
   </script>
 </html>
