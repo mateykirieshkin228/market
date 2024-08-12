@@ -18,9 +18,12 @@
         <div class="search-ic">
             <i class="fas fa-search" id="search-icon"></i>
         </div>
-        </div>
+    </div>
+    <div class="product-container"></div>
     </body>
     <script>
-    document.body.append(new MyElement("RTX4070", "images/fjd.jfif", 2425));
-    </script>
+    document.querySelector('.product-container').append(new MyElement("тестовый товар", "images/aaaaaaa.jpg", 228));
+    document.querySelector('.product-container').append(new MyElement("тестовый товар", "images/дай пять.jpg", 1337));
+    document.querySelector('.product-container').append(new MyElement("тестовый товар", "images/пашка в ударе.jpg", 1234))
+  </script>
 </html>
