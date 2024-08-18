@@ -79,13 +79,8 @@ body {
   justify-content: center;
   gap: 20px;
 }
-.product-container2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-.product {
+
+product-card {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -97,26 +92,21 @@ body {
     align-items: center;
     padding: 20px;
     justify-content: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
-.product:nth-child(3n+1) {
-    margin-left: 20px;
-}
-
-#image {
+product-card > #image {
     width: 150px;
     height: 125px;
     margin: 0 auto;
     transition: transform 0.2s ease;
 }
 
-#image:hover {
+product-card > #image:hover {
     transform: scale(1.2);
 }
 
-#name, #price {
+product-card > :is(#name, #price) {
     font-size: 18px;
     margin-top: 10px;
     text-align: center;
