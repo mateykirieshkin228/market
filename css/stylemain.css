@@ -124,14 +124,3 @@ product-card > :is(#name, #price) {
         transform: scale(1);
     }
 }
-
-.downside {
-    background-color: black;
-    width: 100%;
-    height: 155px;
-}
-p {
-    justify-content: center;
-    text-align: center;
-    color: white;
-}
